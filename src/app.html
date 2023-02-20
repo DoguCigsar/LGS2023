@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%sveltekit.assets%/favicon.png" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    %sveltekit.head%
+  </head>
+  <body>
+    <div>%sveltekit.body%</div>
+  </body>
+  <style>
+		*{
+			color: aliceblue;
+		}
+
+body{
+			background-color: darkslategray;
+			animation: breathe 180s linear infinite;
+			height: 100vh;
+      font-family: 'Roboto', sans-serif;
+		}
+		@keyframes breathe {
+ 			0% {
+ 				background-color: darkslategray;
+ 			}
+			 25% {
+				background-color: darkmagenta;
+			}
+			50% {
+				background-color: darkcyan;
+			}
+			75% {
+				background-color: darkgoldenrod;
+			}
+			100% {
+				background-color: darkslategray;
+			}
+				
+}
+	</style>
+</html>
