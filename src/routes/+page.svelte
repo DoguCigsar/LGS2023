@@ -46,7 +46,7 @@
 		<h1>#LGS2023</h1>
 		<h1 id="text">{text}</h1>
 	</div>
-	<h4 class="copyrightText"> Copyright © COS-Soft 2022</h4>
+	<h4 class="copyrightText"> Copyright © COS-Soft 2023</h4>
 	<h4 class="madeBy">Doğu Çığşar</h4>
 	<h1 class="dontPanic">Don't panic!</h1>
 </main>
